@@ -1,7 +1,7 @@
 <div align="center">
 
 # Manual de Git & GitHub
-### Guia prático dos principais comandos usados dia a dia
+### Guia prático dos principais comandos usados no dia a dia
 
 *Um guia direto ao ponto para quem está começando ou quer relembrar os comandos essenciais*
 
@@ -27,7 +27,9 @@
 
 ---
 
-## 🧩 O que é Git e GitHub?
+  <br>
+
+  ## 🧩 O que é Git e GitHub?
 
 | | O que é |
 |---|---|
@@ -37,6 +39,7 @@
 > 💡 **Resumindo:** O Git permite controlar e guardar "localmente" todos os marcos do seu trabalho, para você poder voltar no tempo, se precisar. E o GitHub é um site na internet onde você guarda esse trabalho, deixando disponível para outras pessoas colaborarem de qualquer lugar e a qualquer momento...
 
 ---
+<br>
 
 ## 💻 Terminais: onde rodar os comandos
 
@@ -52,9 +55,12 @@ No Windows, você pode usar três terminais diferentes. Todos rodam comandos Git
 
 ---
 
+
+<br>
+
 ## 🛠 Configuração inicial
 
-Feita **uma única vez** por computador — define quem é o autor dos seus commits.
+Feita **uma única vez** — define quem é o autor dos seus commits.
 
 ```bash
 git config --global user.name "Seu Nome"
@@ -69,6 +75,9 @@ git config --global --list
 
 ---
 
+
+ <br>
+ 
 ## 📂 Criando e status do repositório
 
 | Comando | O que faz |
@@ -85,9 +94,11 @@ git status
 
 ---
 
+ <br>
+
 ## 🔁 O fluxo básico: add → commit
 
-Esse é o coração do Git. Todo projeto segue esse ciclo:
+Esses são alguns dos comandos mais usados no dia a dia. Todo projeto segue esse ciclo:
 
 ```
  Você edita arquivos  →  git add  →  git commit  →  git push
@@ -108,6 +119,9 @@ git commit -m "Adiciona página inicial do site"
 
 ---
 
+
+<br>
+
 ## 📜 Histórico e diferenças
 
 | Comando | O que faz |
@@ -123,6 +137,9 @@ git log --oneline
 
 ---
 
+
+<br>
+ 
 ## 🌿 Branches (ramificações)
 
 Branches permitem testar ideias ou desenvolver funcionalidades **sem afetar** a versão principal do projeto.
@@ -150,6 +167,9 @@ git merge nova-funcionalidade
 
 ---
 
+
+<br>
+
 ## 🔄 Desfazendo mudanças: `checkout`, `revert` e `reset`
 
 | Comando | Função | Altera o histórico? | Seguro após `push`? |
@@ -170,9 +190,12 @@ git reset --soft HEAD~1    # mantém as mudanças no stage
 git reset --hard HEAD~1    # ⚠️ apaga as mudanças completamente
 ```
 
-> **Regra prática:** já fez `push`? Use `revert`. Ainda está só na sua máquina? Pode usar `reset`.
+> **Regra prática:** já fez `push`? Use `revert`. Ainda está só na sua máquina? Use `reset` (Mas sempre com atenção!).
 
 ---
+
+
+<br>
 
 ## 🔗 Conectando com o GitHub (SSH)
 
@@ -209,6 +232,9 @@ git clone git@github.com:usuario/repositorio.git
 
 ---
 
+
+<br>
+
 ## 🔡 Outros comandos
 
 | Comando | O que faz |
@@ -220,6 +246,9 @@ git clone git@github.com:usuario/repositorio.git
 | `git fetch` | Busca mudanças do repositório remoto sem aplicá-las ainda |
 
 ---
+
+
+<br>
 
 ## 📖 Glossário
 
@@ -237,6 +266,9 @@ git clone git@github.com:usuario/repositorio.git
 | **Upstream** | Vínculo entre a branch local e a branch remota correspondente |
 
 ---
+
+
+<br>
 
 ## ✅ Fluxo completo
 
@@ -272,9 +304,12 @@ git push
 
 ---
 
-## 📄 Bônus: Comparativo de terminais
 
-Prefere CMD ou PowerShell ao invés do Git Bash? Preparei um guia comparando os comandos equivalentes entre **CMD, PowerShell e Git Bash**:
+<br>
+
+## 📄 Comparativo de terminais
+
+Se preferir usar outros terminais (CMD ou PowerShell), ao invés do Git Bash, acesse o **Comparativo de Terminais** para visualizar os comandos equivalentes entre **CMD, PowerShell e Git Bash**:
 
 ➡️ **[Ver Comparativo CMD × PowerShell × Git Bash](COMPARATIVO-TERMINAIS.md)**
 
