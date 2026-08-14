@@ -1,7 +1,7 @@
 <div align="center">
 
-# 📘 Manual de Git & GitHub
-### Guia prático dos principais comandos — do zero ao dia a dia
+# Manual de Git & GitHub
+### Guia prático dos principais comandos usados dia a dia
 
 *Um guia direto ao ponto para quem está começando ou quer relembrar os comandos essenciais*
 
@@ -20,10 +20,10 @@
 - [Branches (ramificações)](#-branches-ramificações)
 - [Desfazendo mudanças](#-desfazendo-mudanças-checkout-revert-e-reset)
 - [Conectando com o GitHub (SSH)](#-conectando-com-o-github-ssh)
-- [Outros comandos úteis](#-outros-comandos-úteis)
-- [Glossário rápido](#-glossário-rápido)
-- [Fluxo completo resumido](#-fluxo-completo-resumido)
-- [📄 Bônus: Comparativo CMD × PowerShell × Git Bash](COMPARATIVO-TERMINAIS.md)
+- [Outros comandos úteis](#-outros-comandos)
+- [Glossário](#-glossário)
+- [Fluxo completo](#-fluxo-completo)
+- [Bônus: Comparativo CMD × PowerShell × Git Bash](COMPARATIVO-TERMINAIS.md)
 
 ---
 
@@ -34,7 +34,7 @@
 | **Git** | Um sistema de controle de versão. Ele guarda o histórico de tudo o que você muda em um projeto, permitindo voltar no tempo, comparar versões e trabalhar em paralelo com outras pessoas. Roda **na sua máquina**. |
 | **GitHub** | Uma plataforma na nuvem que hospeda repositórios Git. É onde você guarda uma cópia do seu projeto online, colabora com outras pessoas e monta seu portfólio. |
 
-> 💡 **Analogia simples:** o Git é como o "Ctrl+Z com superpoderes" do seu projeto. O GitHub é a "nuvem" onde essas versões ficam salvas e acessíveis para você e outras pessoas.
+> 💡 **Resumindo:** O Git permite controlar e guardar "localmente" todos os marcos do seu trabalho, para você poder voltar no tempo, se precisar. E o GitHub é um site na internet onde você guarda esse trabalho, deixando disponível para outras pessoas colaborarem de qualquer lugar e a qualquer momento...
 
 ---
 
@@ -48,11 +48,11 @@ No Windows, você pode usar três terminais diferentes. Todos rodam comandos Git
 | **PowerShell** | `PS C:\Users\usuario>` | Terminal moderno do Windows |
 | **Git Bash** | `usuario@PC MINGW64 ~` | Simula um terminal Linux — **recomendado para usar Git** |
 
-> ✅ **Recomendação:** use o **Git Bash** (instalado junto com o Git). Os comandos Git funcionam de forma idêntica nele em qualquer sistema operacional, e é o padrão usado na maioria dos tutoriais.
+> **Recomendação:** use o **Git Bash** (instalado junto com o Git). Os comandos Git funcionam de forma idêntica nele em qualquer sistema operacional, e é o padrão usado na maioria dos tutoriais.
 
 ---
 
-## 🔧 Configuração inicial
+## 🛠 Configuração inicial
 
 Feita **uma única vez** por computador — define quem é o autor dos seus commits.
 
@@ -90,7 +90,7 @@ git status
 Esse é o coração do Git. Todo projeto segue esse ciclo:
 
 ```
-📝 Você edita arquivos  →  ➕ git add  →  💾 git commit  →  ☁️ git push
+ Você edita arquivos  →  git add  →  git commit  →  git push
 ```
 
 | Comando | O que faz |
@@ -170,7 +170,7 @@ git reset --soft HEAD~1    # mantém as mudanças no stage
 git reset --hard HEAD~1    # ⚠️ apaga as mudanças completamente
 ```
 
-> 🎯 **Regra prática:** já fez `push`? Use `revert`. Ainda está só na sua máquina? Pode usar `reset`.
+> **Regra prática:** já fez `push`? Use `revert`. Ainda está só na sua máquina? Pode usar `reset`.
 
 ---
 
@@ -209,7 +209,7 @@ git clone git@github.com:usuario/repositorio.git
 
 ---
 
-## 🧰 Outros comandos úteis
+## 🔡 Outros comandos
 
 | Comando | O que faz |
 |---|---|
@@ -221,7 +221,7 @@ git clone git@github.com:usuario/repositorio.git
 
 ---
 
-## 📖 Glossário rápido
+## 📖 Glossário
 
 | Termo | Significado |
 |---|---|
@@ -238,7 +238,7 @@ git clone git@github.com:usuario/repositorio.git
 
 ---
 
-## ✅ Fluxo completo resumido
+## ✅ Fluxo completo
 
 Do zero até o primeiro envio para o GitHub:
 
@@ -282,6 +282,6 @@ Prefere CMD ou PowerShell ao invés do Git Bash? Preparei um guia comparando os 
 
 <div align="center">
 
-📌 *Manual criado para consulta rápida e compartilhamento — sinta-se livre para usar, adaptar e compartilhar.*
+*Manual criado para consulta rápida e compartilhamento. Fique a vontade para usar, adaptar e compartilhar.*
 
 </div>
