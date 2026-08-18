@@ -1,5 +1,10 @@
 <div align="center">
 
+<img src="assets/git.png" alt="Exemplo" width="250">
+<img src="assets/github.webp" alt="Exemplo" width="250">
+
+
+
 # Manual de Git & GitHub
 ### Guia prático dos principais comandos usados no dia a dia
 
