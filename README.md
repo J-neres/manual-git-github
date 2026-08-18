@@ -14,7 +14,7 @@
 - [O que é Git e GitHub](#-o-que-é-git-e-github)
 - [Terminais: onde rodar os comandos](#-terminais-onde-rodar-os-comandos)
 - [Configuração inicial](#-configuração-inicial)
-- [Criando e status do repositório](#-criando-e-status-do-repositório)
+- [Criar e visualizar status do repositório](#-criar-e-visualizar-status-do-repositório)
 - [O fluxo básico: add → commit](#-o-fluxo-básico-add--commit)
 - [Histórico e diferenças](#-histórico-e-diferenças)
 - [Branches (ramificações)](#-branches-ramificações)
@@ -73,12 +73,14 @@ Para conferir as configurações salvas:
 git config --global --list
 ```
 
+<img src="assets/definindo_nome_email_usuario.png" alt="Exemplo" width="550">
+
 ---
 
 
  <br>
  
-## 📂 Criando e status do repositório
+## 📂 Criar e visualizar status do repositório
 
 | Comando | O que faz |
 |---|---|
@@ -91,6 +93,10 @@ git init
 git clone git@github.com:usuario/repositorio.git
 git status
 ```
+*Obs: Após o "git clone", caso seja pedido, insira a senha definida inicialmente.*
+
+#### Exemplo:
+<img src="assets/inicializando_o_repositorio.png" alt="Exemplo" width="580">
 
 ---
 
