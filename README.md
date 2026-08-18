@@ -1,7 +1,7 @@
 <div align="center">
 
 <img src="assets/.git.png" alt="Exemplo" width="111">
-<img src="assets/github.webp" alt="Exemplo" width="88">
+<img src="assets/github.webp" alt="Exemplo" width="80">
 <br>
 
 
