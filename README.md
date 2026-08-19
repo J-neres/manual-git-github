@@ -78,7 +78,7 @@ Para conferir as configurações salvas:
 ```bash
 git config --global --list
 ```
-
+#### Exemplo: 
 <img src="assets/definindo_nome_email_usuario.png" alt="Exemplo" width="550">
 
 ---
