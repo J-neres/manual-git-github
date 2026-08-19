@@ -9,7 +9,7 @@
 # Manual de Git & GitHub
 ### Guia prático dos principais comandos usados no dia a dia
 
-*Um guia direto ao ponto para quem está começando ou quer relembrar os comandos essenciais*
+*Guia ideal para quem está começando ou quer relembrar os comandos essenciais*
 
 </div>
 
@@ -331,4 +331,6 @@ Se preferir usar outros terminais (CMD ou PowerShell), ao invés do Git Bash, ac
 
 *Manual criado para consulta rápida e compartilhamento. Fique a vontade para usar, adaptar e compartilhar.*
 
+<br></br>
+⭐ Se este projeto foi útil para você, considere deixar uma estrela no repositório 🤝🏼
 </div>
